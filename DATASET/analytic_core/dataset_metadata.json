@@ -1,0 +1,70 @@
+{
+  "releases": [
+    {
+      "fiscal_year_label": "FY2024",
+      "source_archive": "hospitals_annual_2024.zip",
+      "source_snapshot": "hospitals_2024-10-30.zip",
+      "hrrp_file": "FY2024_HRRP_Hospital.csv",
+      "general_info_file": "FY2024_Hospital_General_Information.csv",
+      "rows": 18774,
+      "err_non_null": 12077,
+      "facilities": 3129,
+      "start_date": "07/01/2019",
+      "end_date": "06/30/2022",
+      "measures": [
+        "READM-30-AMI-HRRP",
+        "READM-30-CABG-HRRP",
+        "READM-30-COPD-HRRP",
+        "READM-30-HF-HRRP",
+        "READM-30-HIP-KNEE-HRRP",
+        "READM-30-PN-HRRP"
+      ]
+    },
+    {
+      "fiscal_year_label": "FY2025",
+      "source_archive": "hospitals_annual_2025.zip",
+      "source_snapshot": "hospitals_2025-11-26.zip",
+      "hrrp_file": "FY2025_HRRP_Hospital.csv",
+      "general_info_file": "FY2025_Hospital_General_Information.csv",
+      "rows": 18510,
+      "err_non_null": 11927,
+      "facilities": 3085,
+      "start_date": "07/01/2020",
+      "end_date": "06/30/2023",
+      "measures": [
+        "READM-30-AMI-HRRP",
+        "READM-30-CABG-HRRP",
+        "READM-30-COPD-HRRP",
+        "READM-30-HF-HRRP",
+        "READM-30-HIP-KNEE-HRRP",
+        "READM-30-PN-HRRP"
+      ]
+    },
+    {
+      "fiscal_year_label": "FY2026",
+      "source_archive": "theme_hospitals_current",
+      "source_snapshot": "current",
+      "hrrp_file": "FY2026_HRRP_Hospital.csv",
+      "general_info_file": "FY2026_Hospital_General_Information.csv",
+      "rows": 18330,
+      "err_non_null": 11720,
+      "facilities": 3055,
+      "start_date": "07/01/2021",
+      "end_date": "06/30/2024",
+      "measures": [
+        "READM-30-AMI-HRRP",
+        "READM-30-CABG-HRRP",
+        "READM-30-COPD-HRRP",
+        "READM-30-HF-HRRP",
+        "READM-30-HIP-KNEE-HRRP",
+        "READM-30-PN-HRRP"
+      ]
+    }
+  ],
+  "pooled": {
+    "total_rows": 55614,
+    "eligible_err_rows": 35724,
+    "unique_facility_measure_fy": 35724,
+    "unique_facilities": 2946
+  }
+}

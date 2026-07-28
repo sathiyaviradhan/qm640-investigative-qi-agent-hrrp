@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.cursor/
+
+# Large CMS zip archives (analytic_core CSVs are tracked)
+DATASET/**/*.zip
+DATASET/hospitals_annual_*/
+DATASET/theme_hospitals_current/
+
+# Local scratch
+_interim_template.txt
+_synopsis_first.txt
+_patch_mentor_rq*.py
+_build_synopsis.py
+
+# Course reading packet / unrelated templates (keep deliverables via git add -f if needed)
+*.pdf
+!QM640_Interim_Report.pdf
+!QM640_Synopsis_First_Submission.pdf
+!QM640_Synopsis_Draft_First_Submission.pdf
+*.pptx
+*annotated bibliogrpahy*
+IMRAD*
+Manual-for-Writers*
+Week3*
+Detailed Rubrics*
+"How to write"*
+A Template and Suggestions*
+Best Practices to Design*
+Camera Ready*
+daffner-*
+Data Statements*
+datasheets for datasets*
+Data_Cleaning*
+Discussion on Why*
+Effective Communication*
+EffectivePresentations*
+Enhancing research*
+Evidence-Based*
+Giving good*
+How the Design*
+How to evaluate*
+Illuminating the Path*
+Model Cards*
+power-failure*
+Presentation Content*
+Presenting Research*
+Principles for data*
+QM 640 - Capstone*
+QM 640 Capstone*
+QM 640 Final*
+QM 640 Interim Report template*
+QM 640 Synopsis template*
+RETHINKING*
+Sample Size and Power*
+SCIENTIFIC COMMUNICATION*
+Show Your Work*
+Some rules*
+The Value of Good Data*
+Twelve tips*
+Unbiased Look*
+Understanding Black-box*
+What Makes a Scientific*
+Why Most Published*
+2010-Narrative*
+Amadeus.pdf
+APA 7th*
+Walsh Capstone*
+step*.pdf

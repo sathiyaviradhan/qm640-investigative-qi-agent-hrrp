@@ -1,0 +1,56 @@
+ADVISORY ONLY — HUMAN REVIEW REQUIRED
+Case 440015 | AMI | FY2026
+Risk: ERR=1.0005 (predicted=12.3576, expected=12.3512).
+Improving peers found: 5.
+Temporal: {'FY2024': 1.0357, 'FY2025': 1.0155, 'FY2026': 1.0005, 'delta_fy24_to_fy26': -0.03520000000000012}.
+What-if: {'feasible': True, 'current_predicted': 12.3576, 'target_predicted_for_err_1': 12.3512, 'delta_predicted_needed': -0.006399999999999295}.
+Candidate QI levers (evidence-linked): care-transition redesign; post-discharge follow-up intensity; peer learning from improving hospitals listed in tool output.
+Citations: tool:metrics; tool:peers; tool:whatif; tool:temporal.
+
+
+----
+
+ADVISORY ONLY — HUMAN REVIEW REQUIRED
+Case 360075 | AMI | FY2026
+Risk: ERR=1.0083 (predicted=12.4509, expected=12.3488).
+Improving peers found: 5.
+Temporal: {'FY2025': 1.0019, 'FY2026': 1.0083}.
+What-if: {'feasible': True, 'current_predicted': 12.4509, 'target_predicted_for_err_1': 12.3488, 'delta_predicted_needed': -0.10210000000000008}.
+Candidate QI levers (evidence-linked): care-transition redesign; post-discharge follow-up intensity; peer learning from improving hospitals listed in tool output.
+Citations: tool:metrics; tool:peers; tool:whatif; tool:temporal.
+
+
+----
+
+ADVISORY ONLY — HUMAN REVIEW REQUIRED
+Case 050481 | AMI | FY2026
+Risk: ERR=1.1252 (predicted=16.4608, expected=14.6291).
+Improving peers found: 5.
+Temporal: {'FY2024': 1.1129, 'FY2025': 1.1499, 'FY2026': 1.1252, 'delta_fy24_to_fy26': 0.012299999999999978}.
+What-if: {'feasible': True, 'current_predicted': 16.4608, 'target_predicted_for_err_1': 14.6291, 'delta_predicted_needed': -1.8316999999999997}.
+Candidate QI levers (evidence-linked): care-transition redesign; post-discharge follow-up intensity; peer learning from improving hospitals listed in tool output.
+Citations: tool:metrics; tool:peers; tool:whatif; tool:temporal.
+
+
+----
+
+ADVISORY ONLY — HUMAN REVIEW REQUIRED
+Case 100191 | AMI | FY2026
+Risk: ERR=1.1538 (predicted=17.8571, expected=15.4771).
+Improving peers found: 5.
+Temporal: {'FY2024': 1.0027, 'FY2025': 1.0166, 'FY2026': 1.1538, 'delta_fy24_to_fy26': 0.1511}.
+What-if: {'feasible': True, 'current_predicted': 17.8571, 'target_predicted_for_err_1': 15.4771, 'delta_predicted_needed': -2.379999999999999}.
+Candidate QI levers (evidence-linked): care-transition redesign; post-discharge follow-up intensity; peer learning from improving hospitals listed in tool output.
+Citations: tool:metrics; tool:peers; tool:whatif; tool:temporal.
+
+
+----
+
+ADVISORY ONLY — HUMAN REVIEW REQUIRED
+Case 190274 | AMI | FY2026
+Risk: ERR=1.0110 (predicted=14.5799, expected=14.4219).
+Improving peers found: 5.
+Temporal: {'FY2024': 1.118, 'FY2025': 1.0787, 'FY2026': 1.011, 'delta_fy24_to_fy26': -0.1070000000000002}.
+What-if: {'feasible': True, 'current_predicted': 14.5799, 'target_predicted_for_err_1': 14.4219, 'delta_predicted_needed': -0.15799999999999947}.
+Candidate QI levers (evidence-linked): care-transition redesign; post-discharge follow-up intensity; peer learning from improving hospitals listed in tool output.
+Citations: tool:metrics; tool:peers; tool:whatif; tool:temporal.

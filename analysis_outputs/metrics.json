@@ -1,0 +1,314 @@
+{
+  "cleaning": {
+    "raw_rows": 55614,
+    "eligible_err_rows": 35724,
+    "removed_missing_err": 19890,
+    "missing_err_pct": 35.76,
+    "duplicate_facility_measure_fy": 0,
+    "unique_facilities_eligible": 2946
+  },
+  "eda": {
+    "eligible_n": 35724,
+    "prevalence_by_fy": [
+      {
+        "fiscal_year_label": "FY2024",
+        "prevalence_err_gt1": 0.4850542353233419
+      },
+      {
+        "fiscal_year_label": "FY2025",
+        "prevalence_err_gt1": 0.4874654146055169
+      },
+      {
+        "fiscal_year_label": "FY2026",
+        "prevalence_err_gt1": 0.48148464163822524
+      }
+    ],
+    "err_mean": 1.0017574039861157,
+    "err_std": 0.07987266955342566
+  },
+  "rq1": {
+    "n": 35724,
+    "pseudo_r2_mcfadden": 0.026937260058179313,
+    "llr_pvalue": 2.7356944288136292e-263,
+    "significant_terms_excl_intercept": 19,
+    "ha_supported": true,
+    "top_terms": [
+      {
+        "term": "log_discharges",
+        "coef": -0.4637235440920816,
+        "OR": 0.6289374038961583,
+        "p_value": 3.3779701684614624e-125,
+        "OR_CI_low": 0.6053717144744492,
+        "OR_CI_high": 0.6534204498851502,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.Other]",
+        "coef": -0.49418750160367814,
+        "OR": 0.6100663839406639,
+        "p_value": 1.3900633162300678e-33,
+        "OR_CI_low": 0.5630505493251226,
+        "OR_CI_high": 0.6610081337466717,
+        "significant_05": true
+      },
+      {
+        "term": "C(ownership_bin)[T.Proprietary]",
+        "coef": 0.254339794957675,
+        "OR": 1.2896099327791852,
+        "p_value": 2.1491655119560428e-10,
+        "OR_CI_low": 1.1922471379932187,
+        "OR_CI_high": 1.3949236913430898,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.NJ]",
+        "coef": 0.4803553389834315,
+        "OR": 1.6166487584676623,
+        "p_value": 3.387559066219375e-09,
+        "OR_CI_low": 1.378638342313628,
+        "OR_CI_high": 1.8957496886884595,
+        "significant_05": true
+      },
+      {
+        "term": "C(measure_short)[T.COPD]",
+        "coef": -0.2081253767030503,
+        "OR": 0.8121052112548852,
+        "p_value": 3.4288284749969616e-08,
+        "OR_CI_low": 0.7542356573218684,
+        "OR_CI_high": 0.8744148698685765,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.TX]",
+        "coef": -0.26331682580710686,
+        "OR": 0.7684983786176282,
+        "p_value": 9.52870175287706e-07,
+        "OR_CI_low": 0.6916900425566718,
+        "OR_CI_high": 0.8538358536360381,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.IN]",
+        "coef": -0.33701063497305944,
+        "OR": 0.7139012475418132,
+        "p_value": 6.539020242000311e-06,
+        "OR_CI_low": 0.6166036224748271,
+        "OR_CI_high": 0.8265520549428232,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.VA]",
+        "coef": -0.31185815642849646,
+        "OR": 0.7320853624664867,
+        "p_value": 4.853201551838731e-05,
+        "OR_CI_low": 0.6298259516776689,
+        "OR_CI_high": 0.8509477523275734,
+        "significant_05": true
+      },
+      {
+        "term": "C(measure_short)[T.HF]",
+        "coef": 0.15010348295624823,
+        "OR": 1.1619544789914857,
+        "p_value": 4.870766699342326e-05,
+        "OR_CI_low": 1.080768282485593,
+        "OR_CI_high": 1.2492392986804486,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.NC]",
+        "coef": -0.27954339262814,
+        "OR": 0.7561289166823855,
+        "p_value": 0.00014586710577259914,
+        "OR_CI_low": 0.6545533858297777,
+        "OR_CI_high": 0.873467238915118,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.MO]",
+        "coef": -0.2625310547803802,
+        "OR": 0.769102479689109,
+        "p_value": 0.0007263859321146276,
+        "OR_CI_low": 0.6604781292338657,
+        "OR_CI_high": 0.8955915390416936,
+        "significant_05": true
+      },
+      {
+        "term": "C(state_grp)[T.IL]",
+        "coef": 0.20658129375124082,
+        "OR": 1.2294676781941867,
+        "p_value": 0.0013795476901768732,
+        "OR_CI_low": 1.0832967325877287,
+        "OR_CI_high": 1.3953617012334067,
+        "significant_05": true
+      }
+    ]
+  },
+  "rq2": {
+    "feature_set": "structural_only (ownership, emergency, measure, state, log discharges)",
+    "train_fy": [
+      "FY2024",
+      "FY2025"
+    ],
+    "test_fy": "FY2026",
+    "models": [
+      {
+        "model": "LogisticRegression",
+        "n_train": 24004,
+        "n_test": 11720,
+        "auroc": 0.6086739900732262,
+        "pr_auc": 0.6008041938210558,
+        "accuracy": 0.5783276450511945,
+        "precision": 0.5642529789184235,
+        "recall": 0.5454545454545454,
+        "f1": 0.5546945395566769,
+        "brier": 0.24043708206186953
+      },
+      {
+        "model": "RandomForest",
+        "n_train": 24004,
+        "n_test": 11720,
+        "auroc": 0.6680185944972067,
+        "pr_auc": 0.6706321428034565,
+        "accuracy": 0.6191126279863481,
+        "precision": 0.6183497289700863,
+        "recall": 0.5458089668615984,
+        "f1": 0.5798192771084337,
+        "brier": 0.2283015508718918
+      },
+      {
+        "model": "GradientBoosting",
+        "n_train": 24004,
+        "n_test": 11720,
+        "auroc": 0.6725549493882207,
+        "pr_auc": 0.6764403074674008,
+        "accuracy": 0.6138225255972696,
+        "precision": 0.614517121181054,
+        "recall": 0.5311004784688995,
+        "f1": 0.5697718631178708,
+        "brier": 0.22442583901414842
+      }
+    ],
+    "best_model": "GradientBoosting",
+    "best_auroc": 0.6725549493882207,
+    "logistic_auroc": 0.6086739900732262,
+    "delta_auroc_vs_logistic": 0.06388095931499449,
+    "ha_supported_delta_gt_0_02": true
+  },
+  "rq3": {
+    "by_fy": [
+      {
+        "fy": "FY2024",
+        "auroc": 0.6047472006045856,
+        "group_fnr": [
+          {
+            "group": "Government",
+            "n": 1503,
+            "fnr": 0.46776406035665297
+          },
+          {
+            "group": "Nonprofit",
+            "n": 8208,
+            "fnr": 0.542528133996336
+          },
+          {
+            "group": "Other/Unknown",
+            "n": 118,
+            "fnr": 0.7647058823529411
+          },
+          {
+            "group": "Proprietary",
+            "n": 2248,
+            "fnr": 0.11933174224343675
+          }
+        ],
+        "delta_fnr_nonprofit_vs_proprietary": 0.4231963917528993
+      },
+      {
+        "fy": "FY2025",
+        "auroc": 0.6062802091399726,
+        "group_fnr": [
+          {
+            "group": "Government",
+            "n": 1505,
+            "fnr": 0.4809590973201692
+          },
+          {
+            "group": "Nonprofit",
+            "n": 8126,
+            "fnr": 0.5755263157894737
+          },
+          {
+            "group": "Other/Unknown",
+            "n": 80,
+            "fnr": 0.6842105263157895
+          },
+          {
+            "group": "Proprietary",
+            "n": 2216,
+            "fnr": 0.15232833464877663
+          }
+        ],
+        "delta_fnr_nonprofit_vs_proprietary": 0.42319798114069707
+      },
+      {
+        "fy": "FY2026",
+        "auroc": 0.6076568000517664,
+        "group_fnr": [
+          {
+            "group": "Government",
+            "n": 1452,
+            "fnr": 0.4889807162534435
+          },
+          {
+            "group": "Nonprofit",
+            "n": 8045,
+            "fnr": 0.5715823466092572
+          },
+          {
+            "group": "Proprietary",
+            "n": 2195,
+            "fnr": 0.16245791245791247
+          }
+        ],
+        "delta_fnr_nonprofit_vs_proprietary": 0.40912443415134475
+      }
+    ],
+    "auroc_range": 0.002909599447180722,
+    "delta_fnr_range": 0.014073546989352315,
+    "ha_supported": false
+  },
+  "rq4": {
+    "n_cases": 80,
+    "means": {
+      "agent": {
+        "faithfulness": 1.0,
+        "evidence_completeness": 0.9916666666666668,
+        "usefulness": 0.9958333333333333,
+        "hallucination": 0.0
+      },
+      "no_tool_llm": {
+        "faithfulness": 0.25,
+        "evidence_completeness": 0.33333333333333337,
+        "usefulness": 0.16666666666666669,
+        "hallucination": 1.0
+      },
+      "static_dashboard": {
+        "evidence_completeness": 0.33333333333333337,
+        "faithfulness": 1.0
+      }
+    },
+    "wilcoxon_agent_vs_no_tool": {
+      "faithfulness_p": 1.872048692101436e-19,
+      "evidence_p": 1.125078982251598e-18,
+      "usefulness_p": 1.125078982251598e-18
+    },
+    "wilcoxon_agent_vs_dashboard_evidence_p": 1.125078982251598e-18,
+    "ha_supported": true
+  },
+  "sample_size": {
+    "pooled_eligible": 35724,
+    "rq2_train": 24004,
+    "rq2_test": 11720,
+    "rq4_cases": 80
+  }
+}
