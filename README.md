@@ -32,6 +32,8 @@ An Investigative Agentic AI Framework for CMS Hospital Excess Readmission Risk: 
 
 ```bash
 python -m pip install -r requirements.txt
+jupyter notebook QM640_Interim_Report_Analysis.ipynb
+# or script form:
 python run_interim_analysis.py
 ```
 
