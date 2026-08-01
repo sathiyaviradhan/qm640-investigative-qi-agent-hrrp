@@ -14,7 +14,8 @@ An Investigative Agentic AI Framework for CMS Hospital Excess Readmission Risk: 
 | Path | Description |
 |------|-------------|
 | `DATASET/analytic_core/` | CMS HRRP + Hospital General Information extracts (FY2024–FY2026) |
-| `run_interim_analysis.py` | End-to-end RQ1–RQ4 analysis pipeline |
+| `QM640_Interim_Report_Analysis.ipynb` | Fully explained, executed Jupyter notebook (RQ1–RQ4) |
+| `run_interim_analysis.py` | End-to-end RQ1–RQ4 analysis pipeline (script form) |
 | `analysis_outputs/` | Metrics, figures, cleaned panel, sample QI dossiers |
 | `_build_interim_report.py` | Regenerates the Interim Report DOCX from metrics/figures |
 | `QM640_Interim_Report.docx` | Current Interim Report deliverable |
